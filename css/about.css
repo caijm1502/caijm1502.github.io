@@ -38,10 +38,17 @@ a:focus, a:hover{
 }
 #nav_menu ul li{
     float: left;
+    text-align: left;
     font-size: 1.1em;
-    background-color: pink;
-    height: 100px;
-    margin-bottom: 2em;
+    background-color: palevioletred;
+    height: 50px;
+    margin-bottom: 3em;
+    margin-top: 2.5em;
+}
+#nav_menu ul .logo{
+    position: relative;
+    margin-top: 0em;
+    background-color: none;
 }
 .navItem {
     color: black;
@@ -54,14 +61,26 @@ a:focus, a:hover{
 }
 
 /*section section*/
-
-/*article section*/
-p{
-    float: right;
-    text-align: left;
+section img{
+    border: 3px solid gray;
     
 }
 
+/*article section*/
+p{
+    width: 50%;
+    float: right;
+    text-align: left;
+    border: 5px solid palevioletred;
+    border-radius: 10px;
+}
+
+/*footer section*/
+footer{
+    float: bottom;
+    text-align: center;
+    margin-top: 3em;
+}
 
 
 

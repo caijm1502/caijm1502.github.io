@@ -38,10 +38,17 @@ a:focus, a:hover{
 }
 #nav_menu ul li{
     float: left;
+    text-align: left;
     font-size: 1.1em;
-    background-color: pink;
-    height: 100px;
-    margin-bottom: 2em;
+    background-color: palevioletred;
+    height: 50px;
+    margin-bottom: 3em;
+    margin-top: 2.5em;
+}
+#nav_menu ul .logo{
+    position: relative;
+    margin-top: 0em;
+    background-color: none;
 }
 .navItem {
     color: black;
@@ -51,6 +58,57 @@ a:focus, a:hover{
     font-family: Murach, sans-serif;
     text-shadow: 2px 2px 1px gainsboro;
     margin: .5em;
+}
+
+/*menu section*/
+table{
+    width: 50%;
+    border-collapse: collapse;
+    padding-top: 2em;
+}
+th, td{
+    border-top: 2px solid palevioletred;
+	border-bottom: 2px solid palevioletred;
+	text-align: left;
+	padding: .7em .7em;
+}
+th{
+    font-weight: bold;
+    font-family: Murach, sans-serif;
+    font-style: italic;
+}
+
+.border_bottom{
+	border-bottom: 2px solid palevioletred;
+}
+.right{
+	text-align: right;
+}
+
+/*top_seller section*/
+top_seller{
+    float: right
+}
+h1{
+    font-size: 4em;
+    font-family: Murach, sans-serif;
+    transform: rotate(-10deg);
+}
+#top_seller ul{
+    width: 50%;
+    border: 3px groove palevioletred;
+    border-radius: 10px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+/*footer section*/
+footer{
+    float: bottom;
+    text-align: center;
+    margin-top: 3em;
 }
 
 
