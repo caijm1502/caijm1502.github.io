@@ -86,7 +86,7 @@ th{
 }
 
 /*top_seller section*/
-top_seller{
+#top_seller{
     float: right
 }
 h1{
@@ -95,7 +95,6 @@ h1{
     transform: rotate(-10deg);
 }
 #top_seller ul{
-    width: 50%;
     border: 3px groove palevioletred;
     border-radius: 10px;
     list-style-type: none;
