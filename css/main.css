@@ -39,7 +39,7 @@ a:focus, a:hover{
 #nav_menu ul li{
     float: left;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: palevioletred;
     height: 50px;
     margin-bottom: 3em;
@@ -65,18 +65,21 @@ section h1{
     float:center;
     font-size: 2em;
 }
-section h2 #joke1{
+#joke1{
     float: left;
     text-align: left;
     font-size: 1.5em;
     margin: .2em;
+    border: 3px solid palevioletred;
+    border-radius: 10px;
 }
 
-section h2 #joke2{
+#joke2{
     float: right;
     text-align: right;
     font-size: 1.5em;
     margin: .2em;
+    border: 3px solid palevioletred;
 }
 
 section img{
