@@ -3,7 +3,7 @@
    ========================================================================== */
 /*for body section*/
 body {
-    background-image: url("../img/bg4.png");
+    background-image: url("../img/bg1.png");
     background-repeat:repeat-y;
     background-position: center top;
     background-attachment: scroll;
@@ -63,7 +63,6 @@ a:focus, a:hover{
 /*section section*/
 section img{
     border: 3px solid gray;
-    
 }
 
 /*article section*/
