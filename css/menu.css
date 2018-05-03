@@ -87,7 +87,8 @@ th{
 
 /*top_seller section*/
 #top_seller{
-    float: right
+    width: 50%;
+    float: right;
 }
 h1{
     font-size: 4em;
@@ -95,6 +96,7 @@ h1{
     transform: rotate(-10deg);
 }
 #top_seller ul{
+    width: 100%;
     border: 3px groove palevioletred;
     border-radius: 10px;
     list-style-type: none;
