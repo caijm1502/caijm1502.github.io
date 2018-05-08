@@ -39,7 +39,7 @@ a:focus, a:hover{
 #nav_menu ul li{
     float: left;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2em;
     background-color: palevioletred;
     height: 40px;
     margin-bottom: 3em;
@@ -62,7 +62,7 @@ a:focus, a:hover{
 
 /*section section*/
 section h1{
-    float: left;
+    float: center;
     text-align: center;
     font-size: 1.7sem;
 }
@@ -92,7 +92,7 @@ section h1{
 
 section img{
     float: left;
-    margin: 2em;
+    margin-top: 2em;
     border: 3px solid gray;
 }
 
@@ -106,6 +106,7 @@ section img{
 /*article section*/
 article p{
     float: left;
+    text-align: center;
     font-size: 1.1em;
     border-top: 3px solid chocolate;
     border-bottom: 3px solid chocolate;
