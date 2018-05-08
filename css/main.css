@@ -41,7 +41,7 @@ a:focus, a:hover{
     text-align: left;
     font-size: 1.1em;
     background-color: palevioletred;
-    height: 50px;
+    height: 40px;
     margin-bottom: 3em;
     margin-top: 2.5em;
 }
@@ -62,23 +62,30 @@ a:focus, a:hover{
 
 /*section section*/
 section h1{
-    float:center;
-    font-size: 2em;
+    float: left;
+    text-align: center;
+    font-size: 1.7sem;
 }
 #joke1{
+    width: 200px;
+    height: 100px;
+    padding-top: 1em;
     float: left;
-    text-align: left;
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 1.25em;
     margin: .2em;
     border: 3px solid palevioletred;
     border-radius: 10px;
 }
 
 #joke2{
+    width: 200px;
+    height: 100px;
+    padding-top: 1em;
     float: right;
-    text-align: right;
-    font-size: 1.5em;
-    margin: .2em;
+    text-align: center;
+    font-size: 1.25em;
+    margin: .5em;
     border: 3px solid palevioletred;
     border-radius: 10px;
 }
@@ -97,18 +104,16 @@ section img{
 }
 
 /*article section*/
-article{
-    border-top: 3px chocolate;
-    border-bottom: 3px chocolate;
-}
-p{
+article p{
     float: left;
     font-size: 1.1em;
+    border-top: 3px solid chocolate;
+    border-bottom: 3px solid chocolate;
 }
 /*footer section*/
 footer{
-    float: bottom;
-    text-align: center;
+    float: left;
+    text-align: left;
     margin-top: 3em;
 }
 
