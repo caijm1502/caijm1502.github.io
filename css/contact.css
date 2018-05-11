@@ -70,7 +70,7 @@ a:focus, a:hover{
 }
 h2{
     float: right;
-    text-align: left;
+    text-align: right;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
