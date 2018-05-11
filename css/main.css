@@ -62,7 +62,7 @@ a:focus, a:hover{
 
 /*section section*/
 section h1{
-    float: center;
+    float: left;
     text-align: center;
     font-size: 1.7sem;
 }
@@ -92,8 +92,9 @@ section h1{
 
 section img{
     float: left;
-    margin-top: 2em;
+    margin: 2em;
     border: 3px solid gray;
+    border-radius: 7px;
 }
 
 #store, #inShop{
@@ -101,6 +102,11 @@ section img{
 }
 #inCase2{
     transform: rotate(-10deg);
+}
+
+#theGif{
+    float: center;
+    margin-left: 150px;
 }
 
 /*article section*/
@@ -114,7 +120,7 @@ article p{
 /*footer section*/
 footer{
     float: left;
-    text-align: left;
+    text-align: center;
     margin-top: 3em;
 }
 

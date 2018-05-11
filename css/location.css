@@ -39,7 +39,7 @@ a:focus, a:hover{
 #nav_menu ul li{
     float: left;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1.2em;
     background-color: palevioletred;
     height: 40px;
     margin-bottom: 3em;
@@ -61,6 +61,8 @@ a:focus, a:hover{
 }
 /*h1 section*/
 h1{
+    float: center;
+    text-align: center;
     font-size: 2em;
     font-style: italic;
     margin: 0;
@@ -68,14 +70,24 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*map section*/
+#map{
+    margin-top:1.3em;
+}
 #map img{
     margin-right: 10px;
     padding-right: 10px;
 }
-#map {
+#maps {
+    margin-left: 5em;
     padding: 2px;
-    margin-top: 7em;
 }
+#coffee, #store1{
+    float: right;
+}
+#donuts, #customers{
+    float: left;
+}
+
 
 /*footer section*/
 footer{
